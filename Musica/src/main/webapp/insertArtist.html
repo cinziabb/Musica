@@ -1,0 +1,47 @@
+<html>
+<head>
+<style>
+body {
+	font-family: Arial;
+}
+
+div {
+	margin-top: 15px;
+}
+</style>
+</head>
+<body>
+
+	<form>
+		<!-- tre tipi principali di campi del form: campi di input, campi select, button -->
+
+		<div>
+			<label for="nome">Nome artista*:</label> <input type="text"
+				placeholder="Inserisci nome" name="nome" id="nome">
+		</div>
+		<div>
+			<label for="dataNascita">Data nascita*:</label> <input type="date"
+				placeholder="dataNascita" name="data-nascita" id="dataNascita">
+		</div>
+		<div>
+			<label for="annoInizio">Anno inizio*:</label> <input type="number"
+				placeholder="annoInizio" name="anno-inizio" id="annoInizio" min="0">
+		</div>
+		<div>
+			<label for="annoFine">Anno fine:</label> <input type="number"
+				placeholder="annoFine" name="anno-fine" id="annoFine" min="0">
+		</div>
+		<div>
+			<button type="submit" id="insertArtistBtn">Invia</button>
+		</div>
+
+	</form>
+
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+		crossorigin="anonymous"></script>
+
+	<script src="js/script.js"></script>
+
+</body>
+</html>

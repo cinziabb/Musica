@@ -1,0 +1,54 @@
+<html>
+
+<head>
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+	<script src="js/script.js"></script>
+	
+	<style>
+		body {
+			font-family: Arial;
+		}
+
+		div {
+			margin-top: 15px;
+		}
+	</style>
+</head>
+
+<body>
+
+	<form>
+
+		<div>
+			<label for="nomeAlbum">Nome album*:</label> <input type="text" placeholder="Inserisci nome album"
+				name="nome-album" id="nomeAlbum">
+		</div>
+		<div>
+			<label for="dataUscita">Data uscita:</label> <input type="date" placeholder="Data uscita" name="data-uscita"
+				id="dataUscita">
+		</div>
+		<div>
+			<label for="numTracce">Numero tracce:</label> <input type="number" placeholder="Numero di tracce"
+				name="num-tracce" id="numTracce">
+		</div>
+		<div>
+			<label for="artistiList">Artista:</label> <select id="artistList">
+				<option value="null">Nessun artista</option>
+			</select>
+		</div>
+		<div>
+			<button type="submit" id="insertAlbumBtn">Invia</button>
+		</div>
+
+	</form>
+
+	<!-- <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+		integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+		crossorigin="anonymous"></script> -->
+
+
+
+</body>
+
+</html>
